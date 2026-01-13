@@ -29,41 +29,12 @@ It is designed for single-author use with trusted content.
 
 ## Project Structure
 
-.
-├── index.php
-├── content/
-│   └── example.md
-├── README.md
-├── SECURITY.md
-├── LICENSE
-└── .gitignore
-
+Place story.php in the root of your folder. All the markdown files should be in the /content/ folder.
 ---
 
 ## Writing Stories
 
 Stories are written in Markdown and placed in the content directory.
-
-Example:
-
----
-title: My First Story
-date: 2025-01-01
-published: yes
-published_episodes: [1,2]
----
-
-This is the introduction.
-
-# Episode One
-
-The story begins.
-
-# Episode Two
-
-The story continues.
-
----
 
 ## Front-Matter Fields
 
